@@ -1,0 +1,134 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.modal label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.modal input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.modal button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.game-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.game-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.game-container button:hover {
+    background-color: #45a049;
+}
+
+.buttons-container button, #regis {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons-container button.tab, #regis {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.buttons-container button.active, #regis {
+    background-color: #45a049;
+}
+
+.buttons-container, #regis {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.content, #regis {
+    margin-top: 20px;
+}
+
+
+.catalog-container, #regis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ 
+.game-container, #regis {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
+.cart-container, #regis {
+    margin: 20px;
+}
+
+
+.cart-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+.cart-container button {
+    background-color: #4CAF50;
+    color: white;
+}
